@@ -1,0 +1,15 @@
+#logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: auto;
+}
+
+#searchBox {
+  display: flex;
+  margin: auto;
+  height: auto;
+  justify-content: center;
+  margin-top: 3rem;
+  width: 20rem;
+}
