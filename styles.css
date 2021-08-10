@@ -36,17 +36,30 @@ a:hover {
 #logo {
   display: flex;
   justify-content: center;
-  height: auto;
+  padding-top: 10rem;
 }
 
-#searchBar {
+#searchBox {
   display: flex;
+  align-items: center;
+  width: 100vw;
   justify-content: center;
 }
 
+#searchBox img {
+  display: flex;
+  height: 2rem;
+  width: 2rem;
+}
+
 #searchButtons {
-  width: auto;
   display: flex;
-  height: auto;
+  justify-content: center;
+  padding-top: 5rem;
+  text-decoration: none;
+}
+
+#searchBox input {
   display: flex;
+  width: 30vw;
 }
