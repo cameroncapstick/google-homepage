@@ -12,7 +12,7 @@ nav {
   color: dark-grey;
   font-family: Arial, Helvetica, sans-serif;
   align-items: center;
-  font-size: 0.9em;
+  font-size: 0.9rem;
 }
 
 #liTwo {
@@ -22,7 +22,7 @@ nav {
   align-items: center;
   color: dark-grey;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 0.84em;
+  font-size: 0.84rem;
   width: 13vw;
 }
 
@@ -34,9 +34,9 @@ a:hover {
   background-color: rgb(35, 93, 252);
   color: white;
   border: none;
-  height: 2.5em;
-  width: 6.5em;
-  font-size: 1.01em;
+  height: 2.5rem;
+  width: 6.5rem;
+  font-size: 1rem;
   border-radius: 5%;
 }
 
@@ -46,27 +46,48 @@ a:hover {
 
 #logo {
   display: flex;
-  margin-top: 1em;
+  margin-top: 1rem;
   justify-content: center;
   padding-top: 10rem;
 }
 
-#wrapper {
-  padding-top: 2em;
+#searchBox {
   display: flex;
-  justify-content: center;
   align-items: center;
-  width: 100vw;
+  justify-content: center;
+  padding-top: 2rem;
 }
 
 #typeBox {
   display: flex;
-  height: 3em;
-  width: 35em;
+  height: 2.5rem;
+  width: 32rem;
   border: 1px solid rgb(187, 187, 187);
-  border-radius: 50em;
-  padding-left: 2.9em;
-  padding-right: 2.9em;
+  border-radius: 50rem;
+  padding-left: 2.9rem;
+  padding-right: 2.9rem;
+}
+
+#icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32rem;
+  position: absolute;
+}
+
+#iconOne {
+  display: flex;
+  height: 1.7rem;
+  position: absolute;
+  left: 32.5rem;
+}
+
+#iconTwo {
+  display: flex;
+  height: 1.9rem;
+  position: absolute;
+  right: 32.5rem;
 }
 
 #typeBox:focus {
@@ -77,46 +98,41 @@ a:hover {
   box-shadow: 2px 2px 2px 2px rgba(214, 212, 212, 0.486);
 }
 
-#searchIcon {
-  display: flex;
-  position: absolute;
-  right: 74.5em;
-}
-
 #micIcon {
-  height: 1.8em;
-  position: absolute;
-  left: 74.5em;
+  height: 1.8rem;
+  display: flex;
 }
 
 #searchButtons {
   display: flex;
-  padding-top: 1.8em;
+  padding-top: 1.8rem;
   justify-content: center;
-  margin-bottom: 5em;
+  margin-bottom: 5rem;
 }
 
 #search {
   background-color: rgb(248, 247, 247);
   border: none;
-  height: 2.5em;
+  height: 2.5rem;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 0.9em;
-  margin-right: 0.5em;
+  font-size: 0.9rem;
+  margin-right: 0.5rem;
   border-radius: 5%;
   color: rgb(77, 77, 77);
+  box-sizing: border-box;
 }
 
 #lucky {
   background-color: rgb(248, 247, 247);
   border: none;
-  height: 2.5em;
-  width: 9em;
+  height: 2.5rem;
+  width: 9rem;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 0.9em;
-  margin-left: 0.5em;
+  font-size: 0.9rem;
+  margin-left: 0.5rem;
   border-radius: 5%;
   color: rgb(77, 77, 77);
+  box-sizing: border-box;
 }
 
 #search:hover {
@@ -149,14 +165,14 @@ li {
   width: 20vw;
   justify-content: space-evenly;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 0.9em;
+  font-size: 0.9rem;
   color: rgb(124, 123, 123);
 }
 
 #listTwo {
   color: rgb(124, 123, 123);
   display: flex;
-  font-size: 0.9em;
+  font-size: 0.9rem;
   width: 15vw;
   justify-content: space-evenly;
   font-family: Arial, Helvetica, sans-serif;
