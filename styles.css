@@ -64,21 +64,21 @@ a:hover {
   margin-top: 2rem;
   width: 38rem;
   height: 2.5rem;
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
 }
 
 #mic {
   height: 1.8rem;
+  padding-right: 0.5rem;
 }
 
 #glass {
-  height: 1.7rem;
+  height: 1.5rem;
+  margin-left: 0.5rem;
 }
 
 #typeBox {
   width: 36rem;
-  height: 2.4rem;
+  height: auto;
   outline: hidden;
   border: none;
 }
